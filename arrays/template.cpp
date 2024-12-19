@@ -11,5 +11,6 @@ int main(){
     cout << add<int>(5, 7) << endl;
     cout << add<double>(5.5, 7.7) << endl;
     cout<<"hi";
+    cout<<"hello";
 
 }
