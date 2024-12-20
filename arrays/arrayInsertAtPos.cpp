@@ -8,7 +8,7 @@ int main()
     int arr[10]= {1,2,3,4,5,6};
     int l = sizeof(arr)/sizeof(arr[0]);
     // int l = arr.size();
-    cout<<l<<endl;
+    // cout<<l<<endl;
     // cout<<arr[19];
     int pos,val;
     
