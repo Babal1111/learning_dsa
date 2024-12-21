@@ -14,10 +14,20 @@ int largestIndex(int arr[],int size){
         }
         if(flag==true) return i;
     }
-    return -1; // this statement will never occur , coz there will be always largest element; this is for removing errors
+    return -1; // this statement will never occur , coz there will be always largest element; this is for removing errors   
+}
+// this method is more efficient
+int largest(int arr[], int size){
+    int res=0;
     
+    for(int i=1;i<size;i++){
+        
+        if(arr[res]<arr[i]){
+            res=i;
+        }
 
-    
+   
+} return res;
 }
 
 int main()
@@ -28,9 +38,13 @@ int main()
     int l = sizeof(arr)/sizeof(arr[0]);
     // int l = arr.size();
 
-cout<<"the index of largest index is :"<<largestIndex(arr,l);
+cout<<"the index of largest index is :"<<largestIndex(arr,l)<< std::endl;
+    std::cout << "the index of largest element is :"<<largest(arr,l) << std::endl;
+
 
   
 
     
 }
+
+
