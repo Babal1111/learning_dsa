@@ -28,6 +28,7 @@ int main()
  int l= sizeof(arr)/sizeof(arr[0]);
  arrRev(arr,l);
  cout<<endl;
+
  int arr2[5]={10,20,30,40,50};
  int l2= sizeof(arr2)/sizeof(arr2[0]);
  arrRev2(arr2,l);
