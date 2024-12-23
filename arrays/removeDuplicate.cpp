@@ -16,5 +16,5 @@ return res;
 int main(){
     int l=6;
     int arr[l] = {1,2,2,3,3,3};
-    cout<<"index of distinct array : "<<remDup(arr,l)<<endl;
+    cout<<"ind ex of distinct array : "<<remDup(arr,l)<<endl;
 }
