@@ -7,12 +7,13 @@ int main(){
 
     int temp[size];
     int count=0;
-    
+    int j=0;
     for(int i=0;i<size;i++){
         if(arr[i]!=0){
-            temp[i]=arr[i];
+            temp[j]=arr[i];
             count++;
         }
+        j++;
     }
     for(int i=count;i<size;i++){
         temp[i]=0;
