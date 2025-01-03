@@ -14,6 +14,7 @@ int main(){
             count++;
         }
         j++;
+
     }
     for(int i=count;i<size;i++){
         temp[i]=0;
@@ -23,5 +24,5 @@ int main(){
     }
 
 
-
+//update
 }
