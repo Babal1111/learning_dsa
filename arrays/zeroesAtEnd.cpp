@@ -1,5 +1,17 @@
 #include<iostream>
 using namespace std;
+int swapEfficient(int arr[],int l){
+    int count=0;
+    for(int i=0;i<7;i++){
+    if(arr[i]!=0){
+        int temp = arr[i];
+        arr[i]=arr[count];
+        arr[count]=temp;
+        count++;
+    }
+
+    }
+}
 
 int swap(int arr[],int l){
     for(int i=0;i<l;i++){
