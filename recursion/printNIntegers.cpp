@@ -10,7 +10,18 @@ int print(int n){
     print(n-1);
 }
 
+void printFirstN(int n){
+    if(n==0){
+        return ;
+    }
+    printFirstN(n-1);
+    cout<<n;
+}
+
 int main(){
-    print(5);
+    // print(5);
+    // cout<<endl;
+    cout<<"1 to n: ";
+    printFirstN(5);
 
 }
