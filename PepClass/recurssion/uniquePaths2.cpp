@@ -24,8 +24,8 @@ public:
         }
 
         int right = noOfPaths(obstacleGrid,i,j+1,m,n);
-        int left = noOfPaths(obstacleGrid,i+1,j,m,n);
+        int down = noOfPaths(obstacleGrid,i+1,j,m,n);
 
-        return right+left;
+        return right+down;
     }
-};
+}; 
