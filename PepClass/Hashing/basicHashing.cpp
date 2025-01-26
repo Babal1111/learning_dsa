@@ -1,4 +1,5 @@
-/// 
+/// this is hasshing with chaining
+
 
 #include<iostream>
 #include<list>
